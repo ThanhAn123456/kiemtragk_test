@@ -108,7 +108,7 @@
             var nhanVienTheoPB = nhanVienVaPhongBan;
             if (!pB.Equals("all"))
             {
-                nhanVienTheoCV = nhanVienVaPhongBan.Where(nv => nv.phongBanName == pB);
+                nhanVienTheoPB = nhanVienVaPhongBan.Where(nv => nv.phongBanName == pB);
             }
 
             //foreach (var item in danhSachTimKiem)
